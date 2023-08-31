@@ -1,0 +1,15 @@
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.csproj.AssemblyReference.cache
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.AssemblyInfoInputs.cache
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.AssemblyInfo.cs
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.csproj.CoreCompileInputs.cache
+C:\Users\stuur\Documents\NinetyOne\bin\Debug\net6.0\NinetyOne.exe
+C:\Users\stuur\Documents\NinetyOne\bin\Debug\net6.0\NinetyOne.deps.json
+C:\Users\stuur\Documents\NinetyOne\bin\Debug\net6.0\NinetyOne.runtimeconfig.json
+C:\Users\stuur\Documents\NinetyOne\bin\Debug\net6.0\NinetyOne.dll
+C:\Users\stuur\Documents\NinetyOne\bin\Debug\net6.0\NinetyOne.pdb
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.dll
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\refint\NinetyOne.dll
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.pdb
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\NinetyOne.genruntimeconfig.cache
+C:\Users\stuur\Documents\NinetyOne\obj\Debug\net6.0\ref\NinetyOne.dll
