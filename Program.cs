@@ -7,20 +7,20 @@ string csvFilePath = "TestData.csv";
 string[] lines = File.ReadAllLines(csvFilePath); //read every line from the string
 int[] scores = new int[4] ;
 
+string input = "ABC3454 ";
+string output = string.Concat( input.Where( Char.IsDigit ) );
+
+Console.WriteLine(output);
+
 for (int i=0; i< lines.Length; i++)  // extract digits only 
 {
-    if (Char.IsDigit(char.Parse(lines[i]))){
+   
+   string number = string.Concat(lines[i].Where(Char.IsDigit));
+    for(int j= 0; j< scores.Length; j++){
 
-        for(int j = 0; j < scores.Length; j++){
-
-            scores[j] = int.Parse(lines[i]); // add digits to the scores list
-        }
-
-
-
+        scores[j] = int.Parse(number);
     }
 
-       
 }
 
  void GetMaxScoe(int[] sourceArray)
@@ -36,7 +36,7 @@ for (int i=0; i< lines.Length; i++)  // extract digits only
     
 }
 
-GetMaxScoe(scores); // call the method
+GetMaxScoe(scores);
 
 
 
