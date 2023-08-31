@@ -5,7 +5,9 @@ using System.Text;
 string csvFilePath = "TestData.csv";
 
 string[] lines = File.ReadAllLines(csvFilePath); //read every line from the string
-int[] scores = new int[4] ;
+int[] scores = new int[4];
+
+List<string> result = new List<string>();
 
 for (int i=1; i< lines.Length; i++)  // extract digits only 
 {
@@ -20,9 +22,7 @@ for (int i=1; i< lines.Length; i++)  // extract digits only
 
 }
 
-
-
- void GetMaxScoe(int[] sourceArray)
+ int GetMaxScoe(int[] sourceArray)
 {
     int maxElement = sourceArray[0];
     for (int index = 1; index < sourceArray.Length; index++)  // parse in the scores array and get the maximum score
@@ -33,11 +33,33 @@ for (int i=1; i< lines.Length; i++)  // extract digits only
             
     }
 
-    Console.WriteLine(maxElement);
+    return maxElement;
     
 }
 
-GetMaxScoe(scores);
+//GetMaxScoe(scores);
+
+void Result(){
+
+    for(int i = 1; i < lines.Length; i++){
+
+        string number = string.Concat(lines[i].ToString().Where(Char.IsDigit));
+
+        if( int.Parse(number) == GetMaxScoe(scores)){
+
+            result.Add(lines[i]);
+
+        }
+    }
+
+    foreach (var score in result)
+    {
+        Console.WriteLine(score);
+    }
+
+}
+
+Result();
 
 
 
